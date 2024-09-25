@@ -1,0 +1,24 @@
+body {background: rgb(255, 255, 249);}
+
+h1 {color: #000000;
+font-size: 80;}
+
+a{text-decoration: none;
+color: #1500ff;}
+
+a:hover{color: #8d87fe;}
+
+h2{color: #000000;}
+
+nav {
+    background: #e8e8e8;
+    /* цвет фона */
+    border: #545454;
+    /* обводка */
+}
+
+.pic1 {
+    width: 25%; /* ширина картинки */
+    margin: 2%; /* внешний отступ */
+    border-radius: 10px; /* скругление углов */
+}
