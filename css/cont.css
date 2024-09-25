@@ -1,24 +1,46 @@
 body {background: rgb(255, 255, 249);}
 
-h1 {color: #000000;
-font-size: 80;}
-
 a{text-decoration: none;
 color: #1500ff;}
 
 a:hover{color: #8d87fe;}
 
-h2{color: #000000;}
-
-nav {
-    background: #e8e8e8;
-    /* цвет фона */
-    border: #545454;
-    /* обводка */
-}
-
 .pic1 {
     width: 25%; /* ширина картинки */
     margin: 2%; /* внешний отступ */
     border-radius: 10px; /* скругление углов */
+}
+ 
+article {
+    width: 700px; /* ширина контейнера */
+  margin: 0px auto;/* внешний отступ */
+}
+
+h1 {color: #000000;
+    font-size: 80;
+    margin-top: 66px;
+    line-height: 45px;
+}
+
+h1 + hr + p {
+    margin-top: 8px;
+    color: #0000004b;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+h2{color: #000000c0;
+    margin-top: 50px;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+h2 + blockquote, h2 + p {
+    margin-top: 8px;
+}
+
+blockquote{
+    font-style: italic;
+    margin-left: 100px;
+    margin-top: 20px;
 }

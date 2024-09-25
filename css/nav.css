@@ -1,0 +1,17 @@
+nav {
+    background: #e8e8e8;/* цвет фона */
+    border: #ff0000; /* обводка */
+    width: 300px; /* ширина нашего нав меню(списка) */
+    position: fixed; /* позиция привязаа к точке на экране */
+    margin-top: 25px;
+    margin-left: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: .1;  /* 10% */
+    transition: all 0.5s ease;
+}
+
+nav:hover{
+    opacity: 1; /* 100% */
+    transition: all 0.1s ease;
+}

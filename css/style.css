@@ -1,2 +1,3 @@
 @import "reset.css"; /* путь до сброса */
 @import "cont.css"; /* путь до цвета и характеристик */
+@import "nav.css";
