@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "DenimINKTRIAL-MediumItalic";
+    src: url(../DP_ink_fonts/DenimINKTRIAL-MediumItalic.otf);
+    font-weight: medium;
+    font-style: italic;
+}
+
+a{
+    font-family: "DenimINKTRIAL-MediumItalic";
+}
