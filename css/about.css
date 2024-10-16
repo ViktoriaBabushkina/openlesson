@@ -1,0 +1,66 @@
+.main{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.blok1, .blok2, .blok3{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blok1text, .blok1img{
+    width: 45%;
+    padding: 0% 5%;
+}
+
+footer{
+    width: 100%;
+}
+
+.footertext{
+    width: 600px;
+    text-align: center;
+    margin: 0% auto;
+}
+
+.footertext p{
+    margin: 2% 0%;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.button1{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    color: black;
+    padding: 5px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: #000000;
+    color: white;
+    padding: 5px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+
